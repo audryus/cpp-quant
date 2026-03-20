@@ -42,9 +42,9 @@ Se você é uma IA recebendo este documento como contexto, siga estas instruçõ
 > Marque `[x]` para concluído, `[~]` para em andamento, `[ ]` para não iniciado.
 
 ### Fase 0 — Setup & Mindset
-- [ ] Instalação do toolchain (gcc, clang, cmake, ninja, gdb, valgrind, perf)
-- [ ] Instalação dos sanitizers (ASan, TSan, UBSan)
-- [ ] CMakeLists.txt base criado com flags corretas
+- [X] Instalação do toolchain (gcc, clang, cmake, ninja, gdb, valgrind, perf)
+- [X] Instalação dos sanitizers (ASan, TSan, UBSan)
+- [X] CMakeLists.txt base criado com flags corretas
 - [ ] Primeiro programa compilado (`Hello, low latency world`)
 - [ ] Compilação com `-O2` e com `-fsanitize=address` testada
 
