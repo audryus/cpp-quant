@@ -1,0 +1,4 @@
+#!/bin/bash
+cd "$(dirname "$0")/.."
+cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release -G Ninja
+cmake --build build_release -- -j$(nproc)

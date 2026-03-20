@@ -1,0 +1,19 @@
+# builds
+build_debug/
+build_release/
+
+# cmake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# binarios
+*.o
+*.a
+*.so
+
+# editor
+.vscode/
+.clangd/
+*.swp
